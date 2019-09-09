@@ -23,4 +23,4 @@ LONG_SAME_CHAR = "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 def test_max(input, input_valid, max_repeat_chars):
     outcome: Tuple[bool, int] = max_repeating_chars.max_repeating_chars(input)
     assert outcome[0] == input_valid
-    assert outcome[1] == max_repeat
+    assert outcome[1] == max_repeat_chars
