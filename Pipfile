@@ -8,6 +8,10 @@ verify_ssl = true
 [packages]
 black = "==19.3b0"
 pytest = "*"
+flake8-bugbear = "*"
+flake8 = "*"
+hypothesis = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.8"
