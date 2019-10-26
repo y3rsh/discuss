@@ -4,6 +4,7 @@ import pytest
 def fail_fast(expression):
     if not expression or len(expression) % 2 != 0:
         return True
+    return False
 
 
 def is_matched(expression):
